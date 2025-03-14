@@ -1,0 +1,5 @@
+use ("utt_ycvg_store")
+
+db.inventory.find()
+
+

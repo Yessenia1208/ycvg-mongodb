@@ -1,0 +1,15 @@
+
+use ("utt_ycvg_store")
+
+db.products.updateOne(
+    {_id: 
+        ObjectId("67c76c5fb9ea92d0dbdfd554")
+    }, 
+    {
+        $inc: {
+          price: 97 
+        }
+    }
+)
+
+
